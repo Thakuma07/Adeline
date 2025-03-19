@@ -1,0 +1,209 @@
+/* nagivation menu style code */
+
+
+@font-face {
+    font-family: domain;
+    src: url(./domain.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+html{
+    scrollbar-width: none; 
+} 
+
+body {
+    height: 100%;
+    position: relative;
+    background-color: #1b1b1b;
+    
+    
+}
+
+#nav {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    background-color: #1b1b1b;
+    padding: 0 30px;
+    align-items: center;
+    justify-content: space-between;
+    /* border-bottom: 2px solid #cdc6be; */
+    z-index: 1;
+    top: 0%;    
+}
+
+#nav::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0;
+        opacity: .2;
+        height: 1px;
+        background: #cdc6be; /* Line color */
+        animation: lineExpand 1s ease-in-out forwards;
+      }
+
+      @keyframes lineExpand {
+        from {
+          width: 0;
+        }
+        to {
+          width: 100%;
+        }
+      }
+      
+#nav img {
+    height: 30px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    filter: invert(1) brightness(2);
+}
+
+.close{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+/* CSS */
+#close-btn {
+    cursor: pointer;
+    width: 30px;
+    height: 25px;
+    position: relative;
+    background: none;
+    border: none;
+    padding: 0;
+    transition: transform 0.3s ease;
+    z-index: 1000;
+    
+}
+
+.line {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #cdc6be;
+    border-radius: 2px;
+    transform-origin: center;
+    transition: all 0.3s ease;
+}
+
+.line:first-child {
+    transform: rotate(45deg);
+}
+
+.line:last-child {
+    transform: rotate(-45deg);
+}
+
+/* Click Animation */
+#close-btn.clicked {
+    transform: rotate(90deg);
+}
+
+#close-btn.clicked .line {
+    opacity: 0;
+    transform: rotate(0deg);
+}
+
+
+.overlay-menu {
+   color: #cdc6be;
+   padding-top: 15vh;
+   padding-right: 2vh;
+   font-size: 80px; 
+   text-align: center;
+}
+   
+.menu-item h1{
+    text-align: center;
+    letter-spacing: -.001em;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 3vw;
+    font-family: canopee;
+    font-weight: 400;
+    line-height: 5vw; 
+    transition: letter-spacing 0.3s ease;
+       
+}
+
+.menu-item a{
+    color: inherit;
+    text-decoration: none;
+} 
+
+.menu-item h1:hover{
+    letter-spacing: 0.1em;
+}
+
+.strikethrough {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .strikethrough::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 55%;
+    width: 0;
+    height: 12px;
+    background:  #c03f13;
+    transition: width 0.5s ease-in-out;
+  }
+  
+  /* Default active (first element starts with strikethrough) */
+  .strikethrough.active::after {
+    animation: lineExpand .5s ease-in-out forwards;
+}
+
+@keyframes lineExpand {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+  
+  
+  /* Reverse animation (removes strikethrough) */
+  .strikethrough.reverse::after {
+    width: 0;
+  }
+  
+#footer{
+    position: absolute;
+    bottom: -20%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 0.5em;
+    
+    
+}
+
+#footer a{
+    font-family: "Canopee";
+    font-size: 20px;
+    color: #cdc6be;
+    text-decoration: none;
+    
+}
+
