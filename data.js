@@ -4,16 +4,16 @@ export const awards = [
     {
         name: "Frontend Project",
         type: "2025",
-        project: "Modern Portfolio",
+        project: "Cute Portfolio",
         label: "See Live",
-        url: "https://thakuma07.github.io/Modern-Portfolio/"
+        url: "https://arkyadeep-pal.netlify.app/"
     },
     {
         name: "Frontend Project",
         type: "2025",
-        project: "Tik Tak Tok",
+        project: "ISRO Website",
         label: "See Live",
-        url: "https://thakuma07.github.io/Tik-Tak-Tok-/"
+        url: "https://isro-website.netlify.app/"
     },
     {
         name: "Frontend Project",
@@ -25,9 +25,9 @@ export const awards = [
     {
         name: "Frontend Project",
         type: "2025",
-        project: "Hover Text Effect",
+        project: "Graphic Designer Portfolio",
         label: "See Live",
-        url: "https://thakuma07.github.io/Hover-Text-effect-/"
+        url: "https://anshu-ram.netlify.app/"
     },
     {
         name: "Frontend Project",
