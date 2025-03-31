@@ -1,6 +1,7 @@
 /* main landing page's css code */
 
 
+
 @font-face {
     font-family: domain;
     src: url(./domain.ttf);
@@ -189,7 +190,7 @@ body {
 }
 
 #page1 {
-    height: 140vh;
+    
     width: 100vw;
     background-color: #CDC6BE;
     position: relative;
@@ -487,7 +488,7 @@ body {
 }
 
 #reviews {
-    display: flex;
+    /* display: flex; */
     position: relative;
     margin-bottom: 400px;
     margin-top: 20px;
@@ -705,31 +706,258 @@ a{
     margin: 0 3px;
 }
 
+/* Tablet and Mobile Landscape (768px - 1024px) */
+@media (max-width: 1024px) {
+    #page1 h1 {
+        margin-top: 100px;
+        font-size: 360px;
+        letter-spacing: -10px;
+        line-height: 250px;
+    }
 
+    #elems {
+        display: none;
+    }
 
-.mobile-message {
-    display: none;
+    #elem1, #elem2, #elem3 {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    #elem2 {
+        border: none;
+        padding: 0;
+    }
+
+    #page2 {
+        flex-direction: column;
+        height: auto;
+        padding: 40px 20px;
+    }
+
+    #page2-left, #page2-right {
+        width: 100%;
+        padding: 0;
+    }
+
+    #page2-left {
+        border-right: none;
+        margin-bottom: 40px;
+    }
+
+    #page2-left h2 {
+        font-size: 60px;
+        line-height: 60px;
+    }
+
+    #page2-left h2 span {
+        font-size: 80px;
+    }
+
+    #page2-left p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    #page3 h1 {
+        font-size: 200px;
+        line-height: 180px;
+    }
+
+    #page3 img {
+        height: 200px;
+        right: 3%;
+    }
+
+    #page4 {
+        flex-direction: column;
+        height: auto;
+    }
+
+    #page4-left, #page4-right {
+        width: 100%;
+        padding: 40px 20px;
+    }
+
+    #skills-section {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #skills-section h2 {
+        grid-column: 1/3;
+    }
+
+    #anda {
+        width: 100% !important;
+        height: 150px !important;
+    }
+
+    #anda h1 {
+        font-size: 40px;
+        padding-top: 50px !important;
+        
+    }
+
+    #reviews {
+        flex-direction: column;
+        padding: 20px;
+        margin-bottom: 50px;
+    }
+
+    .review {
+        position: static !important;
+        width: 100% !important;
+        margin-bottom: 20px;
+        transform: none !important;
+    }
+
+    .review-2, .review-3, .review-4 {
+        transform: none !important;
+    }
+
+    #page5 h1 {
+        font-size: 40px;
+    }
+
+    #page5 a {
+        font-size: 30px;
+    }
+
+    #page6 {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+        text-align: center;
+    }
+
+    #page6-left {
+        margin-bottom: 20px;
+    }
+
+    .intersect-text h1 {
+        font-size: 50px !important;
+    }
 }
+
+/* Mobile Portrait (<= 767px) */
+@media (max-width: 767px) {
   
-  /* Show ONLY on mobile devices (<= 767px) */
-  @media (max-width: 767px) {
-    .mobile-message {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background: #CDC6BE;
-    text-align: center;
-    font-family: domain;
-    padding: 0 15px;
+
+    #nav{
+        height: 7vh;
     }
-    
-    /* Optional: Hide desktop elements in mobile view */
+
+    #nav h5 {
+        font-size: 14px;
+    }
+
+    #nav img {
+        height: 25px;
+    }
+
+    #menu-btn{
+        height: 2vh;
+    }
+
+    #page1 h1 {
+        font-size: 145px;
+        line-height: 120px;
+        margin-top: 70px;
+        letter-spacing: 2px;
+    }
+
+    #page2-left img {
+        float: right;
+        height: 50%;
+        width: 50%;
+        margin-top: -50px;
+        margin-right: 5px;
+    }
+
+    #page2-left p{
+        margin-top: 20px;   
+    }
+
+    #page2-left p::first-letter{
+        font-size: 5em;
+        padding: 7vw .4vw 7vw .5vw;
+    }
+    #page2-left h2 {
+        font-size: 90px;
+        line-height: 60px;
+    }
+
+    #page2-left h2 span {
+        font-size: 60px;
+    }
+
+    #page2-right img {
+        height: 100%;
+        width: 100%;
+    }
+
+    #page3 h1 {
+        font-size: 95px;
+        line-height: 85px;
+        letter-spacing: 1px;
+    }
+
+    #page3 img {
+        height: 150px;
+        margin-top: -30px;
+    }
+
+    #page4-left img{
+        height: 50vh;    
+    }
+
+    #page4-right h2{
+        margin-top: -70px;
+        font-size: 3em;
+    }
+
+    .lang-item span {
+        font-size: 30px;
+    }
+
+    #skills-section {
+        margin-bottom: 2px;
+    }
+
+    .review-inside img{
+        height: 10vh;
+        width: 15vw;
+    }
+
+    .review-inside .desciption {
+        font-size: 20px;   
+    }
+
+    #page5 a{
+        font-size: 50px;
+    }
+
+    #page6-left{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #page6-left h1{
+        font-size: 80px;
+    }
+
+    #page6-left img{
+        width: 20%;
+    }
+
+    #page6-right a{
+        font-size: 25px;
+    }
     #main {
-      display: none;
-      background: #CDC6BE;  
+        display: block;
     }
-  }
+}
+
 
 
 .loading-screen {
