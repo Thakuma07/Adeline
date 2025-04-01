@@ -834,13 +834,10 @@ a{
         margin-bottom: 20px;
     }
 
-    .intersect-text h1 {
-        font-size: 50px !important;
-    }
 }
 
 /* Mobile Portrait (<= 767px) */
-@media (max-width: 767px) {
+@media (max-width: 767px)  {
   
 
     #nav{
@@ -894,6 +891,10 @@ a{
     #page2-right img {
         height: 100%;
         width: 100%;
+    }
+
+    #page2-right h1{
+        font-size: 53px;
     }
 
     #page3 h1 {
@@ -953,19 +954,89 @@ a{
     #page6-right a{
         font-size: 25px;
     }
+
     #main {
         display: block;
     }
 }
 
+@media (max-width: 376px){
 
+    #page1 h1{
+        font-size: 130px;
+    }
+    
+    #page2-left h2{
+        font-size: 80px;
+    }
 
-.loading-screen {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 0%;
-    height: 100%;
-    background: #cdc6be;
-    z-index: 1000;
+    #page2-right h1{
+        font-size: 40px;
+    }
+
+    .line-through .line1{
+        background: linear-gradient(to right, #1b1b1b 45%, transparent 50%);
+      background-size: 100% 1.5px;
+      background-position: 0 50%;
+      background-repeat: no-repeat;
+    }
+    
+    .line-through .line2{
+        background: linear-gradient(to right, #1b1b1b 45%, transparent 40%);
+      background-size: 100% 1.5px;
+      background-position: 0 55%;
+      background-repeat: no-repeat;
+    }
+    
+    .line-through .line3{
+        background: linear-gradient(to right, #1b1b1b 85%, transparent 70%);
+        background-size: 100% 1.5px;
+        background-position: 0 60%;
+        background-repeat: no-repeat;
+    }
+    
+    .line-through .line4{
+        background: linear-gradient(to right, #1b1b1b 65%, transparent 50%);
+        background-size: 100% 1.5px;
+        background-position: 0 65%;
+        background-repeat: no-repeat;
+    }
+
+    .underline .line5{
+        background: linear-gradient(to right, #1b1b1b 75%, transparent 50%);
+        background-size: 100% 1.5px;
+        background-position: 0 70%;
+        background-repeat: no-repeat;
+    }
+    
+    .underline .line6{
+        background: linear-gradient(to right, #1b1b1b 17%, transparent 5%);
+        background-size: 100% 1.5px;
+        background-position: 0 75%;
+        background-repeat: no-repeat;
+    }
+
+    #page3 h1{
+        font-size: 75px;
+        line-height: 70px;
+    }
+
+    #anda h1{
+        font-size: 35px;
+        padding-right: 0;
+        margin-left: -35px;
+    }
+
+    .review-inside .desciption {
+        font-size: 19px;
+    }
+
+    .review-inside h2{
+        font-size: 20px;
+    }
+
+    #page6-right a{
+     font-size: 20px;
+    }
 }
+

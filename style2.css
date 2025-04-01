@@ -207,3 +207,58 @@ body {
     
 }
 
+/* Responsive styles for mobile (376px and below) */
+@media screen and (max-width: 376px) {
+  /* Adjust navigation bar */
+  #nav {
+      height: 40px;
+      padding: 0 15px;
+  }
+  
+  #nav img {
+      height: 20px;
+  }
+  
+  /* Adjust close button */
+  #close-btn {
+      width: 25px;
+      height: 20px;
+  }
+  
+  /* Adjust menu overlay */
+  .overlay-menu {
+      padding-top: 30vh;
+      font-size: 2.5rem; /* ~40px */
+      padding-right: 1vh;
+  }
+  
+  .menu-item h1 {
+      line-height: 3.5rem;
+      padding-top: 2vw;
+  }
+  
+  /* Adjust strikethrough effect */
+  .strikethrough::after {
+      height: 8px;
+      top: 60%;
+  }
+  
+  /* Adjust footer */
+  #footer {
+      bottom: -15%;
+      flex-wrap: wrap;
+      justify-content: center;
+      width: 90%;
+  }
+  
+  #footer a {
+      font-size: 16px;
+      padding: 0px;
+  }
+  
+  /* Reduce animation durations for mobile */
+  #nav::after,
+  .strikethrough::after {
+      animation-duration: 0.5s;
+  }
+}
