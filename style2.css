@@ -138,7 +138,7 @@ body {
     margin-top: 0;
     margin-bottom: 0;
     padding-top: 3vw;
-    font-family: canopee;
+    font-family: canopee-regular, sans-serif;
     font-weight: 400;
     line-height: 5vw; 
     transition: letter-spacing 0.3s ease;
@@ -211,7 +211,7 @@ body {
 }
 
 /* Responsive styles for mobile (376px and below) */
-@media screen and (max-width: 376px) {
+@media (max-width: 376px) {
   /* Adjust navigation bar */
   #nav {
       height: 40px;
