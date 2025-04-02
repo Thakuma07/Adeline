@@ -1,4 +1,8 @@
 /* work-page style code */
+@font-face {
+    font-family: canopee-regular;
+    src: url(./Canopee-Regular.otf);
+}
 
 @font-face {
     font-family: domain;
@@ -51,7 +55,7 @@ body {
     font-size: 20px;
     font-weight: 100;
     flex: 1;
-    font-family: canopee;
+    font-family: canopee-regular, sans-serif;
     color: #2f2f2f;
     opacity: .8;
 }
@@ -162,7 +166,7 @@ body {
     color: #CDC6BE; 
     background-color: #1b1b1b; 
     padding: .75vw .4vw .5vw .5vw; 
-    font-family: "canopee" , sans-serif;
+    font-family: canopee-regular , sans-serif;
 }
 
 #page3-right p {
@@ -183,7 +187,7 @@ body {
     color: #CDC6BE; 
     background-color: #1b1b1b; 
     padding: .75vw .4vw .5vw .5vw; 
-    font-family: "canopee" , sans-serif;
+    font-family: canopee-regular , sans-serif;
 }
 
 .page4{

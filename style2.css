@@ -1,5 +1,8 @@
 /* nagivation menu style code */
-
+@font-face {
+    font-family: canopee-regular;
+    src: url(./Canopee-Regular.otf);
+}
 
 @font-face {
     font-family: domain;
@@ -200,7 +203,7 @@ body {
 }
 
 #footer a{
-    font-family: "Canopee";
+    font-family: canopee-regular, sans-serif;
     font-size: 20px;
     color: #cdc6be;
     text-decoration: none;
