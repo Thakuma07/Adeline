@@ -312,7 +312,7 @@ a{
 }
 
 /* Mobile Responsive Styles (376px) */
-@media (max-width: 376px) {
+@media only screen and (max-width: 376px) {
     /* General adjustments */
     body {
         overflow-x: hidden;
@@ -376,7 +376,7 @@ a{
         font-size: 60px;
         line-height: 40px;
         margin: 5px 5px 5px 0;
-        padding: 5px;
+        padding: 8px;
     }
     
     /* Page 4 - Awards section */

@@ -710,7 +710,7 @@ a{
 }
 
 /* Tablet and Mobile Landscape (768px - 1024px) */
-@media (max-width: 1024px) {
+@media only screen and (max-width: 1024px) {
     #page1 h1 {
         margin-top: 100px;
         font-size: 360px;
@@ -840,7 +840,7 @@ a{
 }
 
 /* Mobile Portrait (<= 767px) */
-@media (max-width: 767px)  {
+@media only screen and (max-width: 767px)  {
   
 
     #nav{
@@ -963,7 +963,7 @@ a{
     }
 }
 
-@media (max-width: 376px){
+@media only screen and (max-width: 376px){
 
     #page1 h1{
         font-size: 130px;

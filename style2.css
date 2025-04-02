@@ -211,7 +211,7 @@ body {
 }
 
 /* Responsive styles for mobile (376px and below) */
-@media (max-width: 376px) {
+@media only screen and (max-width: 376px) {
   /* Adjust navigation bar */
   #nav {
       height: 40px;
