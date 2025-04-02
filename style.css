@@ -854,7 +854,7 @@ a{
     }
 
     #page1 h1 {
-        font-size: 145px;
+        font-size: 130px;
         line-height: 130px;
         margin-top: 70px;
         letter-spacing: 2px;
@@ -892,13 +892,55 @@ a{
     }
 
     #page2-right h1{
-        font-size: 53px;
+        font-size: 40px;
+    }
+
+    .line-through .line1{
+        background: linear-gradient(to right, #1b1b1b 45%, transparent 55%);
+      background-size: 100% 1.5px;
+      background-position: 0 50%;
+      background-repeat: no-repeat;
+    }
+    
+    .line-through .line2{
+        background: linear-gradient(to right, #1b1b1b 40%, transparent 40%);
+      background-size: 100% 1.5px;
+      background-position: 0 55%;
+      background-repeat: no-repeat;
+    }
+    
+    .line-through .line3{
+        background: linear-gradient(to right, #1b1b1b 85%, transparent 70%);
+        background-size: 100% 1.5px;
+        background-position: 0 60%;
+        background-repeat: no-repeat;
+    }
+    
+    .line-through .line4{
+        background: linear-gradient(to right, #1b1b1b 50%, transparent 67%);
+        background-size: 100% 1.5px;
+        background-position: 0 65%;
+        background-repeat: no-repeat;
+    }
+
+    .underline .line5{
+        background: linear-gradient(to right, #1b1b1b 78%, transparent 50%);
+        background-size: 100% 1.5px;
+        background-position: 0 70%;
+        background-repeat: no-repeat;
+    }
+    
+    .underline .line6{
+        background: linear-gradient(to right, #1b1b1b 14%, transparent 5%);
+        background-size: 100% 1.5px;
+        background-position: 0 75%;
+        background-repeat: no-repeat;
     }
 
     #page3 h1 {
-        font-size: 90px;
-        line-height: 85px;
-        letter-spacing: .2px;
+        font-size: 70px;
+        line-height: 70px;
+        letter-spacing: .1px;
     }
 
     #page3 img {
@@ -926,18 +968,19 @@ a{
     #anda h1{
         font-size: 60px;
         margin-left: 10px;
-        padding: 10px 30px;
+        padding: 10px 180px;
         display: flex;
         align-items: center;
         justify-content: center;
         white-space: nowrap;
     }
+
     .review{
         height: 400px;
     }
 
     .review-inside img{
-        height: 10vh;
+        height: 12vh;
         width: 20vw;
         
     }
@@ -947,12 +990,21 @@ a{
     }
 
     .review-1 h2{
-        font-size: 25px;
+        font-size: 23px;
     }
 
     .review-2 h2{
         font-size: 30px;
     }
+
+    .review-3 h2{
+        font-size: 20px;
+    }
+
+    .review-4 .desciption{
+        font-size: 18px;
+    }
+
     #page5 a{
         font-size: 50px;
     }
@@ -971,7 +1023,7 @@ a{
     }
 
     #page6-right a{
-        font-size: 25px;
+        font-size: 20px;
     }
 
     #main {
