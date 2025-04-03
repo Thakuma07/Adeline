@@ -854,10 +854,12 @@ a{
     }
 
     #page1 h1 {
-        font-size: 130px;
-        line-height: 130px;
+        font-size: 8rem;
+        line-height: 120px;
         margin-top: 70px;
         letter-spacing: 2px;
+        text-align: center;
+        padding: 8px 0;
     }
 
     #page2-left img {
@@ -892,10 +894,12 @@ a{
     }
 
     #page2-right h1{
+        
         font-size: 40px;
     }
 
     .line-through .line1{
+        width: 90%;
         background: linear-gradient(to right, #1b1b1b 45%, transparent 55%);
       background-size: 100% 1.5px;
       background-position: 0 50%;
@@ -903,6 +907,7 @@ a{
     }
     
     .line-through .line2{
+        width: 100%;
         background: linear-gradient(to right, #1b1b1b 40%, transparent 40%);
       background-size: 100% 1.5px;
       background-position: 0 55%;
@@ -910,7 +915,8 @@ a{
     }
     
     .line-through .line3{
-        background: linear-gradient(to right, #1b1b1b 85%, transparent 70%);
+        width: 100%;
+        background: linear-gradient(to right, #1b1b1b 85% , transparent 70%);
         background-size: 100% 1.5px;
         background-position: 0 60%;
         background-repeat: no-repeat;
@@ -931,16 +937,17 @@ a{
     }
     
     .underline .line6{
-        background: linear-gradient(to right, #1b1b1b 14%, transparent 5%);
+        background: linear-gradient(to right, #1b1b1b 12%, transparent 5%);
         background-size: 100% 1.5px;
         background-position: 0 75%;
         background-repeat: no-repeat;
     }
 
     #page3 h1 {
-        font-size: 70px;
+        font-size: 80px;
         line-height: 70px;
         letter-spacing: .1px;
+        padding: 10px 10px;
     }
 
     #page3 img {
