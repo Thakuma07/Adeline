@@ -127,6 +127,16 @@ body {
     padding: 20px 20px;
     text-align: center;
     border-left: 2px solid #656565;
+    position: relative;
+}
+
+#elems #redac3{
+    position: absolute;
+    top: 0.2rem;
+    left: 2.2rem;
+    border: none;
+    width: 350px;
+    height: auto;
 }
 
 #elme1 #image-div, #elme3 #image-div {
@@ -227,6 +237,7 @@ body {
 }
 
 #page2-left {
+    position: relative;
     height: 100%;
     width: 35%;
     padding-right: 40px;
@@ -234,7 +245,7 @@ body {
 }
 
 #page2-left h2 {
-    font-size: 120px;
+    font-size: 100px;
     font-family: canopee-regular, sans-serif;
     line-height: 130px;
     font-weight: 100;
@@ -248,6 +259,51 @@ body {
     font-size: 190px;
     font-weight: 900;
     
+}
+
+#page2-left #tape1{
+    position: absolute;
+    top: 14em;
+    right: -5em;
+    border: none;
+    width: 250px;
+    height: auto;
+}
+
+#page2-left #tape2{
+    position: absolute;
+    top: 14em;
+    left: -5em;
+    border: none;
+    width: 200px;
+    height: auto;
+}
+
+#page2-left #redac1{
+    position: absolute;
+    bottom: 8.2rem;
+    left: 10.5rem;
+    border: none;
+    width: 90px;
+    height: auto;
+}
+
+#page2-left #redac2{
+    position: absolute;
+    bottom: 10.4rem;
+    right: 1.3rem;
+    border: none;
+    width: 260px;
+    height: auto;
+}
+
+#page2-left #redac4{
+    position: absolute;
+    bottom: -1.8rem;
+    left: 5rem;
+    border: none;
+    width: 180px;
+    height: auto;
 }
 
 #page2-left img {
@@ -278,9 +334,46 @@ body {
 }
 
 #page2-right {
+    position: relative;
     height: 100%;
     width: 70%;
     padding: 0 60px;
+}
+
+#page2-right #tape3{
+    position: absolute;
+    top: -7em;
+    left: 1em;
+    border: none;
+    width: 150px;
+    height: auto;
+}
+
+#page2-right #tape4{
+    position: absolute;
+    top: -3em;
+    right: 1em;
+    border: none;
+    width: 150px;
+    height: auto;
+}
+
+#page2-right #tape5{
+    position: absolute;
+    top: 15em;
+    left: -1em;
+    border: none;
+    width: 250px;
+    height: auto;
+}
+
+#page2-right #tape6{
+    position: absolute;
+    top: 10em;
+    right: -2em;
+    border: none;
+    width: 250px;
+    height: auto;
 }
 
 #page2-right img {
@@ -385,11 +478,29 @@ body {
 }
 
 #page4-left {
+    position: relative;
     width: 65%;
     height: 100%;
     padding: 80px 60px;
 }
 
+#page4-left #tape7{
+    position: absolute;
+    top: 6em;
+    right: -1em;
+    border: none;
+    width: 150px;
+    height: auto;
+}
+
+#page4-left #tape8{
+    position: absolute;
+    top: 5em;
+    left: 1em;
+    border: none;
+    width: 130px;
+    height: auto;
+}
 #page4-left img {
     height: 100%;
     width: 100%;
