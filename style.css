@@ -1,13 +1,13 @@
 /* main landing page's css code */
 @font-face {
     font-family: canopee-regular;
-    src: url(./Canopee-Regular.otf);
+    src: url(./fonts/Canopee-Regular.otf);
 }
 
 
 @font-face {
     font-family: domain;
-    src: url(./domain.ttf);
+    src: url(./fonts/domain.ttf);
 }
 
 * {
