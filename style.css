@@ -390,6 +390,15 @@ body {
         
 }
 
+.intersect-text #coffee{
+    position: absolute;
+    right: -2em;
+    bottom: 2em;
+    width: 30em;
+    height: auto;
+    border: none;
+}
+
 .underline h1{
     text-decoration: underline;
     text-decoration-thickness: 2px; 
@@ -466,6 +475,7 @@ body {
     position: absolute;
     top: -3%;
     right: 6%;
+    
 }
 
 #page4 {
@@ -501,6 +511,7 @@ body {
     width: 130px;
     height: auto;
 }
+
 #page4-left img {
     height: 100%;
     width: 100%;
@@ -509,46 +520,43 @@ body {
 }
 
 #page4-right {
+    position: relative;
     width: 40%;
     height: 100%;
     padding: 80px 60px;
 }
 
-#page4-right p {
-    font-size: 34px;
-    font-family: domain;
-    font-weight: 100;
-    color: #2f2f2f;
-    margin-bottom: 150px;
-    line-height: 35px;
+#page4-right #ransom1{
+    position: absolute;
+    top: 2rem;
+    left: -1rem;
+    transform: rotate(-7deg);
+    width: 90%;
+    height: auto;
 }
+
+#page4-right #ransom2{
+    position: absolute;
+    top: 8rem;
+    right: 2rem;
+    transform: rotate(-7deg);
+    width: 70%;
+    height: auto;
+}
+
 
 /* techical expertise */
 #skills-section {
-    margin-bottom: 200px;
+    margin-bottom: 250px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
     
 }
 
-#skills-section h2 {
-    font-family: canopee-regular, sans-serif;
-    font-size: 40px;
-    margin-bottom: 30px;
-    color: #1C1C19;
-    grid-column: 1/4;
-    text-decoration: underline;
-    text-decoration-thickness: 2px; /* Reduce the thickness */
-    text-underline-offset: 3px; /* Adjust the distance of the underline */
-    color: inherit; /* Keeps the text color */
-    text-decoration-color: rgba(0, 0, 0, 1); /* Reduce opacity */    
-}
-
 .lang-item {
     display: flex;
     align-items: center;
-    gap: 10px;
-    margin-bottom: 25px;
+    margin-bottom: 50px;
 }
 
 .lang-item span {
@@ -556,10 +564,12 @@ body {
     font-size: 28px;
     color: #2f2f2f;
     font-weight: 500;
+    position: relative;
+    top: 10rem ;
 }
 
 #page4-right #anda {
-    height: 200px;
+    height: 180px;
     background-color:#d7cfc5;
     border: 1px solid #2f2f2fc6;
     position: relative;
@@ -575,7 +585,7 @@ body {
 
 #anda h1 {
     font-size: 50px;
-    padding-top: 80px;
+    padding-top: 70px;
     padding-right: 35px;
     font-weight: 100;
     font-family: canopee-regular, sans-serif;
