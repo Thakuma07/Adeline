@@ -12,12 +12,12 @@ document.addEventListener("DOMContentLoaded", function () {
     // Attach event listener to menu button
     document.getElementById("menu-btn").addEventListener("click", function () {
         this.classList.toggle("active");
-        navigateToPage("index2.html"); // Change as needed
+        navigateToPage("./menu"); // Change as needed
     });
 
     // Attach event listener to 'anda' section
     document.getElementById("anda").addEventListener("click", function () {
-        navigateToPage("index3.html");
+        navigateToPage("./work");
     });
 
     // Add smooth scroll effect

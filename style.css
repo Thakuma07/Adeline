@@ -268,6 +268,7 @@ body {
     border: none;
     width: 250px;
     height: auto;
+    box-shadow: none;
 }
 
 #page2-left #tape2{
@@ -277,6 +278,17 @@ body {
     border: none;
     width: 200px;
     height: auto;
+    box-shadow: none;
+}
+
+#page2-left #torn1{
+    position: absolute;
+    bottom: 12.72rem;
+    right: 2.5rem; 
+    width: 28.5rem;
+    height: auto;
+    box-shadow: none;
+    border: none;
 }
 
 #page2-left #redac1{
@@ -286,6 +298,7 @@ body {
     border: none;
     width: 90px;
     height: auto;
+    box-shadow: none;
 }
 
 #page2-left #redac2{
@@ -295,6 +308,7 @@ body {
     border: none;
     width: 260px;
     height: auto;
+    box-shadow: none;
 }
 
 #page2-left #redac4{
@@ -304,13 +318,13 @@ body {
     border: none;
     width: 180px;
     height: auto;
+    box-shadow: none;
 }
 
 #page2-left img {
     height: 50%;
     width: 100%;
-    object-fit: cover;
-    border: 0.8px solid black;
+    object-fit: cover;   
 }
 
 #page2-left p {
@@ -347,6 +361,7 @@ body {
     border: none;
     width: 190px;
     height: auto;
+    box-shadow: none;
 }
 
 #page2-right #tape4{
@@ -356,6 +371,7 @@ body {
     border: none;
     width: 190px;
     height: auto;
+    box-shadow: none;
 }
 
 
@@ -364,7 +380,6 @@ body {
     height: 30%;
     width: 100%;
     object-fit: cover;
-    border: 0.8px solid black;
 }
 
 #page2-right h1 {
@@ -381,6 +396,7 @@ body {
     width: 30em;
     height: auto;
     border: none;
+    box-shadow: none;
 }
 
 .underline h1{
@@ -731,6 +747,16 @@ body {
     height: auto;
 }
 
+.review-inside #redac10{
+    border: none;
+    border-radius: 0;
+    position: absolute;
+    left: 1.3rem;
+    bottom: 15.3rem;
+    width: 13rem;
+    height: auto;
+}
+
 .review-inside .desciption{
     opacity: .7;
     text-decoration: underline;
@@ -910,6 +936,83 @@ a{
         margin-bottom: 40px;
     }
 
+    #tape1, #tape2 {
+       display: none;
+    }
+
+    #page2-left #torn1{
+        width: 12.1rem;
+        height: auto;
+        right: 0.01rem;
+        bottom: 12.01rem;
+    }
+
+    #page2-left #redac1{
+        width: 7rem;
+        height: auto;
+        left: 2.3rem;
+        top: 19.4rem;
+    }
+    
+    #page2-left #redac2{
+        width: 12rem;
+        height: auto;
+        left: -0.7rem;
+    }
+
+    #page2-left #redac4{
+        width: 10rem;
+        height: auto;
+        left: 0rem;
+        bottom: 2.6rem;
+    }
+
+    #page2-right #tape3{
+        width: 10rem;
+        height: auto;
+        left: 7rem;
+        bottom: -8rem;
+    }
+
+    #page2-right #tape4{
+        width: 8rem;
+        height: auto;
+        left: 14rem;
+        top: -30rem;
+    }
+    
+    .intersect-text #coffee1{
+        width: 10rem;
+        height: auto;
+        left: 15rem;
+    }
+
+    #page4-left #tape7{
+        width: 6rem;
+        height: auto;
+        top: 11rem;
+        left: 10rem;
+        transform: rotate(90deg) ;
+    }
+
+    #page4-left #tape8{
+        width: 5rem;
+        height: auto;
+        top: -9.7rem;
+        left: 10rem;
+        transform: rotate(90deg) ;
+    }
+
+    #page4-left #coffee2{
+        display: none;
+    }
+
+    #page4-right #ransom1{
+        width: 25rem;
+        height: auto;
+        left: 1rem;
+    }
+
     #page2-left h2 {
         font-size: 60px;
         line-height: 60px;
@@ -1032,6 +1135,8 @@ a{
         margin-right: 5px;
     }
 
+   
+    
     #page2-left p{
         margin-top: 20px;
         font-size: 25px;   
