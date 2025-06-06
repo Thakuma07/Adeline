@@ -18,9 +18,9 @@ export const awards = [
     {
         name: "Frontend Project",
         type: "2025",
-        project: "Cute Proposal",
+        project: "PassportCard Generator",
         label: "See Live",
-        url: "https://thakuma07.github.io/Crush-Proposal/"
+        url: "https://passport-card-generator.vercel.app/"
     },
     {
         name: "Frontend Project",
@@ -32,9 +32,9 @@ export const awards = [
     {
         name: "Frontend Project",
         type: "2025",
-        project: "Page Transition",
-        label: "See Live",
-        url: "https://thakuma07.github.io/Page-Transition/"
+        project: "To-Do List App",
+        label: "Get The App",
+        url: "https://github.com/Thakuma07/To-Do-List"
     },
     {
         name: "Python Project",
@@ -46,13 +46,13 @@ export const awards = [
     {
         name: "Backend Project",
         type: "Coming",
-        project: "Chess.com Clone",
+        project: "Real Time AI Voice Agent Interview Platform",
         label: ""
     },
     {
-        name: "Backend Project",
+        name: "SaaS Project",
         type: "Coming",
-        project: "RealTime Device Track",
+        project: "Discord Clone",
         label: ""
     },
     {
