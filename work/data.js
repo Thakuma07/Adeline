@@ -52,13 +52,13 @@ export const awards = [
     {
         name: "SaaS Project",
         type: "Coming",
-        project: "Discord Clone",
+        project: "Linkedin Clone Using Next.js 14",
         label: ""
     },
     {
         name: "MERN Stack Project",
         type: "Coming",
-        project: "RealTime Chat App",
+        project: "ChatGPT Clone with React Native",
         label: ""
     },
     
