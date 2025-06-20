@@ -898,7 +898,7 @@ a{
 }
 
 /* Tablet and Mobile Landscape (768px - 1024px) */
-@media only screen and (max-width: 1024px) {
+@media (max-width: 1024px) {
     #page1 h1 {
         margin-top: 100px;
         font-size: 360px;
@@ -1150,7 +1150,7 @@ a{
 }
 
 /* Mobile Portrait (<= 767px) */
-@media only screen and (max-width: 776px)  {
+@media (max-width: 776px)  {
   
 
     #nav{
@@ -1212,9 +1212,12 @@ a{
     }
 
     #page2-right h1{
-        
         font-size: 40px;
     }
+
+    /* #page2-right #tape4{
+        left: 5rem;
+    } */
 
     .line-through .line1{
         width: 90%;
@@ -1286,8 +1289,6 @@ a{
         font-size: 30px;
     }
 
-    
-
     #anda h1{
         font-size: 60px;
         margin-left: 10px;
@@ -1329,5 +1330,90 @@ a{
     }
 }
 
+@media (max-width: 376px) {
+    #page2-right #tape4{
+       left: 11.5rem;
+    }
 
+    #page2-left #torn1{
+        width: 10.5rem;
+        bottom: 13.7rem;
+    }
+
+    #page2-left #redac1{
+        left: 0rem;
+        top: 21rem;
+    }
+
+    #page2-left #redac2{
+        left: 7rem;
+    }
+
+    #page2-left #redac4{
+        left: 7rem;
+    }
+
+    #page2-right #tape3{
+        left: 5.5rem;
+    }
+
+    .intersect-text #coffee1{
+        left: 12rem;
+    }
+
+    #page4-left #tape8{
+        width: 4.8rem;
+        top: -9rem;
+        left: 9.3rem;
+    }
+
+    #page4-left #tape7{
+        width: 6rem;
+        bottom: -9rem;
+        left: 8.5rem;
+    }
+
+    #page4-right #ransom1{
+        width: 90%;
+        left: 0rem;
+    }
+
+    .lang-item span{
+        font-size: 25px;
+    }
+
+    .review-inside .desciption {
+        font-size: 20px;
+    }
+
+    .review-inside #redac6{
+        width: 17rem;
+    }
+
+    .review-inside #redac7{
+        width: 17rem;
+    }
+
+    .review-inside #redac10{
+        width: 10rem;
+        top: 2.5rem;
+    }
+
+    .review-3 h6{
+        font-size: 16px;
+    }
+
+    .review-inside #redac9{
+        width: 5rem;
+        right: 3rem;
+    }
+
+    .review-inside #redac5{
+        width: 4.8rem;
+    }
+
+    .review-4 h2{
+        font-size: 20px;
+    }
+}
 
