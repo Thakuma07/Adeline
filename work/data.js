@@ -45,6 +45,13 @@ export const awards = [
     },
     {
         name: "Backend Project",
+        type: "2025",
+        project: "Discord Bot with GPT integration",
+        label: "Get The Code",
+        url: "https://github.com/Thakuma07/ChatGPT-Discord-Bot.git",
+    },
+    {
+        name: "Backend Project",
         type: "Coming",
         project: "Real Time AI Voice Agent Interview Platform",
         label: ""
