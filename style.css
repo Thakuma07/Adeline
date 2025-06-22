@@ -936,75 +936,20 @@ a{
         margin-bottom: 40px;
     }
 
-    #tape1, #tape2 {
+    #tape1, #tape2, #tape3, #tape4, #tape5, #tape6, #tape7, #tape8{
        display: none;
     }
 
-    #page2-left #torn1{
-        width: 12.1rem;
-        height: auto;
-        right: 0.01rem;
-        bottom: 12.01rem;
+    #torn1{
+       display: none;
     }
 
-    #page2-left #redac1{
-        width: 7rem;
-        height: auto;
-        left: 2.3rem;
-        top: 19.4rem;
-    }
-    
-    #page2-left #redac2{
-        width: 12rem;
-        height: auto;
-        left: -0.7rem;
+    #coffee1, #coffee2{
+       display: none;
     }
 
-    #page2-left #redac4{
-        width: 10rem;
-        height: auto;
-        left: 0rem;
-        bottom: 2.6rem;
-    }
-
-    #page2-right #tape3{
-        width: 10rem;
-        height: auto;
-        left: 7rem;
-        bottom: -8rem;
-    }
-
-    #page2-right #tape4{
-        width: 8rem;
-        height: auto;
-        left: 14rem;
-        top: -30rem;
-    }
-    
-    .intersect-text #coffee1{
-        width: 10rem;
-        height: auto;
-        left: 15rem;
-    }
-
-    #page4-left #tape7{
-        width: 6rem;
-        height: auto;
-        top: 11rem;
-        left: 10rem;
-        transform: rotate(90deg) ;
-    }
-
-    #page4-left #tape8{
-        width: 5rem;
-        height: auto;
-        top: -9.7rem;
-        left: 10rem;
-        transform: rotate(90deg) ;
-    }
-
-    #page4-left #coffee2{
-        display: none;
+    #redac1, #redac2, #redac3, #redac4, #redac5, #redac6, #redac7, #redac8, #redac9, #redac10{
+       display: none;
     }
 
     #page4-right #ransom1{
@@ -1089,44 +1034,7 @@ a{
         margin-top: 20px;
     }
     
-    .review-inside #redac10{
-        width: 13rem;
-        height: auto;
-        top: 2.3rem;
-        left: 2rem;
-    }
-
-    .review-inside #redac6{
-        width: 20rem;
-        height: auto;
-        top: 2.3rem;
-        left: 1.8rem;
-    }
-
-    .review-inside #redac7{
-        width: 20rem;
-        height: auto;
-        top: 4.4rem;
-        left: 1.8rem;
-    }
-
-    .review-inside #redac8{
-        display: none;
-    }
-
-    .review-inside #redac5{
-        width: 6rem;
-        height: auto;
-        right: 7rem;
-        top: 2.5rem;   
-    }
-
-    .review-inside #redac9{
-        width: 6rem;
-        height: auto;
-        right: 1.8rem;
-        top: 9rem;   
-    }
+    
 
     #page5 h1 {
         font-size: 40px;
@@ -1214,10 +1122,6 @@ a{
     #page2-right h1{
         font-size: 40px;
     }
-
-    /* #page2-right #tape4{
-        left: 5rem;
-    } */
 
     .line-through .line1{
         width: 90%;
@@ -1331,89 +1235,9 @@ a{
 }
 
 @media (max-width: 376px) {
-    #page2-right #tape4{
-       left: 11.5rem;
-    }
-
-    #page2-left #torn1{
-        width: 10.5rem;
-        bottom: 13.7rem;
-    }
-
-    #page2-left #redac1{
-        left: 0rem;
-        top: 21rem;
-    }
-
-    #page2-left #redac2{
-        left: 7rem;
-    }
-
-    #page2-left #redac4{
-        left: 7rem;
-    }
-
-    #page2-right #tape3{
-        left: 5.5rem;
-    }
-
-    .intersect-text #coffee1{
-        left: 12rem;
-    }
-
-    #page4-left #tape8{
-        width: 4.8rem;
-        top: -9rem;
-        left: 9.3rem;
-    }
-
-    #page4-left #tape7{
-        width: 6rem;
-        bottom: -9rem;
-        left: 8.5rem;
-    }
-
     #page4-right #ransom1{
-        width: 90%;
-        left: 0rem;
-    }
-
-    .lang-item span{
-        font-size: 25px;
-    }
-
-    .review-inside .desciption {
-        font-size: 20px;
-    }
-
-    .review-inside #redac6{
-        width: 17rem;
-    }
-
-    .review-inside #redac7{
-        width: 17rem;
-    }
-
-    .review-inside #redac10{
-        width: 10rem;
-        top: 2.5rem;
-    }
-
-    .review-3 h6{
-        font-size: 16px;
-    }
-
-    .review-inside #redac9{
-        width: 5rem;
-        right: 3rem;
-    }
-
-    .review-inside #redac5{
-        width: 4.8rem;
-    }
-
-    .review-4 h2{
-        font-size: 20px;
+        width: 22rem;
     }
 }
+
 
